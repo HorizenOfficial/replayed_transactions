@@ -1,0 +1,245 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.4.2/pure-min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.5.4/jquery.timeago.min.js"></script>
+    
+    <title>LBE (CSS Enhanced) Block Explorer</title>
+
+</head>
+
+<body>
+<script type="text/javascript">
+        $(document).ready(function(){
+                $('.pure-button-primary').click(function(){
+                    if ($('.input-lg').val().length < 8) {
+                        alert('Invalid! Doh!');
+                    } else if ($('.input-lg').val().startsWith('0')) {
+                        window.location = "/block/" + $('.input-lg').val();
+                    } else {
+                        window.location = "/tx/" + $('.input-lg').val();
+                    }
+                });
+        });
+</script>
+<header>
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal">
+        <a class="pure-menu-heading hot-swapper" href="../../index.html"><i class="fa fa-home"></i>&nbsp;LBE (CSS Enhanced) Zen Block Explorer</a>
+        <form class="pure-form" style="float:right;padding-right: 18px;">
+            <fieldset>
+                <input type="text" class="form-control input-lg" placeholder="Enter Block or Tx Hash" >
+                <button  class="pure-button pure-button-primary" type="button">Find</button>
+            </fieldset>
+        </form>
+    </div>
+</header>
+
+<main>
+<div style="padding-left: 18px;padding-right: 18px;">
+    
+<h1>Zen Transaction dfc4019698c5b0d9a181aeeddaf46b89e16a2d12b3ea8bcb3652f00fb369f92d</h1>
+
+<table class="pure-table" style="width: 100%;">
+    <tr>
+        <th>txid</th>
+        <td>dfc4019698c5b0d9a181aeeddaf46b89e16a2d12b3ea8bcb3652f00fb369f92d</td>
+    </tr>
+    <tr>
+        <th>locktime</th>
+        <td>113134</td>
+    </tr>
+    <tr>
+        <th>version</th>
+        <td>1</td>
+    </tr>
+
+</table>
+
+<table class="pure-table" style="width: 100%;">
+    <tr>
+        <th>Inputs</th>
+        <th>Outputs</th>
+    </tr>
+    <tr valign="top">
+        <td>
+            <table>
+                <tr>
+                    <th>address</th>
+                    <th>value</th>
+                </tr>
+                
+                <tr>
+                    <td>znaLnhwWA5KTTRGKoBsM5eQe7d8prEaREy7</td>
+                    <td>12.50000655</td>
+                </tr>
+                
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <th>address</th>
+                    <th>value</th>
+                </tr>
+                
+                    <tr>
+                        <td>zneA5TVMWRMhEVzaxcXCz1pRSmLBG2YHiHq</td>
+                        <td>0.10047479</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znVAGXaJvFbVipjMeLKWH5PF67bRRvh6wZD</td>
+                        <td>0.1046697</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znk5uXrpaS2GyCYsxpifVxPzwPoochDr7rW</td>
+                        <td>0.13727381</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znVe2zjp9ZGq9jkjiP66BtJUiRNhiuxkKUv</td>
+                        <td>0.20356729</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znbmghGXjQ4NgTZNV5xcVBxDoDfJZnsQFQB</td>
+                        <td>2.5494663</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znmb8w7D1m4pBTX15E8zTgWZNrhABkZ7M9M</td>
+                        <td>2.49857891</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znWuBqpqTGJGRd18sFLp1HfzBFGUCZFnr5y</td>
+                        <td>0.52803938</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znUGKuczMok31fsWBcMHMUBkpDRNWat7Rdr</td>
+                        <td>0.10498797</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znY2cQDRnkDcLdsbb7ehTUSmrQrRgmELQNa</td>
+                        <td>3.00532571</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znXLQymgHytqzNZT5Yy9mhWaaJWRK5pnt1r</td>
+                        <td>1.09232504</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znaRsAya3xkRMitAPFSCzNbkMCWunEVSokn</td>
+                        <td>0.21727939</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znmwphDXCiv3wB6FHXAragQkbS1yX2D2X1b</td>
+                        <td>0.62171888</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znmBXtZG8bbHPDhdkYdYkM1rYQWxubTgbW7</td>
+                        <td>0.02608103</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znhZ4PCbe3XbYHmBqMqqWbJxbuAabDsoct9</td>
+                        <td>0.11219102</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znfgDUwcbQntUc6iJegMpSEBDb6x3cH1j79</td>
+                        <td>0.31285099</td>
+                    </tr>
+                
+                    <tr>
+                        <td>zngaJ5nyVhZgbMWmz8w1eCXNDSnhEWFL9aN</td>
+                        <td>0.03442599</td>
+                    </tr>
+                
+                    <tr>
+                        <td>zndTLMHHgagJcqTbb2X4LMRhLXhQzWsCMQs</td>
+                        <td>0.03920322</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znR75T4XL71AEmEtAtFdz4mGMijQctbYa5b</td>
+                        <td>0.03552417</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znS9TBd6M6xXnpZUoBNv1ro8Hsspz3cdhSf</td>
+                        <td>0.01361082</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znfppcrVR5XwCNnW3TrMT7gs99VUh3EYGBt</td>
+                        <td>0.14489441</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znmHaJvKaXTNZUzDiEtqntfTJTBgBNfW44r</td>
+                        <td>0.03849266</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znmeW2M43GhWWBnxNeffiswo8NDz2R8fbY3</td>
+                        <td>0.03983928</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znioEjeNthRq1FR2ofi8zPv8cF6D8sRvUR6</td>
+                        <td>0.12066434</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znScV1e8RTquuL5WpEyb8RtdYZgawgrkhks</td>
+                        <td>0.02709738</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znfE7eZipNS5FySgbMCNwArbda5kMArVd1b</td>
+                        <td>0.08264421</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znobnEhAPezVVHCg6qSXYRBAHGU8gmt2dgx</td>
+                        <td>0.29837707</td>
+                    </tr>
+                
+                    <tr>
+                        <td>znVtt6ZrxKtwPH9G1tEVuiU1F8xpbVExngE</td>
+                        <td>0.01039203</td>
+                    </tr>
+                
+            </table>
+        </td>
+    </tr>
+</table>
+
+</div>
+</main>
+
+<footer>
+<div style="padding-left: 18px;padding-right: 18px;">
+    <p align="center"><small>(c) LBE (CSS Enhanced) <a href="https://github.com/hellcatz/">hellcatz</a>, Source on <a href="https://github.com/hellcatz/lbe/">Github</a>
+    <br />(c) LBE (Original Author) <a href="http://ondrejsika.com">Ondrej Sika</a>, Source on <a href="https://github.com/ondrejsika/lbe">Github</a></small></p>
+</div>
+</footer>
+
+</body>
+</html>
